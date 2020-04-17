@@ -6,10 +6,11 @@
              mc:Ignorable="d"
              x:Class="WebinairApp.MainPage">
 
-    <StackLayout>
+    <StackLayout x:Name="TristeStack" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="DarkBlue">
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <Label Text="Welcome to Webinar!" 
            HorizontalOptions="Center"
+           TextColor="White"
            VerticalOptions="CenterAndExpand" />
     </StackLayout>
 
